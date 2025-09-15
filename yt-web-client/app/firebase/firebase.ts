@@ -8,10 +8,10 @@ import { getFunctions } from "firebase/functions";
 // Your web app's Firebase configuration
 // For Firebase JS SDK v7.20.0 and later, measurementId is optional
 const firebaseConfig = {
-  apiKey: "AIzaSyDdFZQYAIo5Qp4wAQmEinrBIIeM6eBUPuo",
-  authDomain: "yt-clone-82a10.firebaseapp.com",
-  projectId: "yt-clone-82a10",
-  appId: "1:168576336989:web:c1ce73d003edc2fed6b9b4"
+  apiKey: env.apiKey,
+  authDomain: env.authDomain,
+  projectId: env.projectId ,
+  appId: env.appId,
 };
 
 // Initialize Firebase
