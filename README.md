@@ -45,19 +45,4 @@ The project is structured into three main services to ensure high availability, 
 ## System Design
 ![Videomash System Design Drawing](videomash_sd.png)
 
-## Getting Started
 
-1.  **Clone the repository**: `git clone https://github.com/your-username/videomash.git`
-2.  **Set up GCP**:
-    - Create a new Firebase project and enable Authentication, Firestore, and Cloud Storage.
-    - Set up two Cloud Storage buckets: one for raw videos (private) and one for processed videos (public). Configure CORS for the raw video bucket.
-    - Deploy the `yt-api-service` to Firebase Cloud Functions.
-    - Deploy the `video-processing-service` to Cloud Run.
-3.  **Configure Environment Variables**:
-    - Set up the necessary environment variables for each service, such as Firebase configuration keys and bucket names.
-4.  **Run the Web Client**:
-    - Navigate to the `yt-web-client` directory.
-    - `npm install`
-    - `npm run dev`
-
-You should now have a locally running instance of the web client connected to your cloud-hosted backend services.
