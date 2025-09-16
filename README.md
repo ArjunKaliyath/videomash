@@ -43,7 +43,7 @@ The project is structured into three main services to ensure high availability, 
   - Updates the video's status in the Cloud Firestore database to 'processed'.
 
 ## System Design
-![Videomash System Design Drawing](image_a6d3dd.png)
+![Videomash System Design Drawing](videomash_sd.png)
 
 ## Getting Started
 
